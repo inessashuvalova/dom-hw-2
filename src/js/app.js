@@ -36,6 +36,6 @@ export default class GoblinGame {
       document.getElementById(`cell_${this.currentPos}`).innerHTML = '';
       this.currentPos = this.generateRand();
       document.getElementById(`cell_${this.currentPos}`).insertAdjacentElement('afterbegin', this.goblin);
-    }, 500);
+    }, 1000);
   }
 }
